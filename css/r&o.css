@@ -1,3 +1,5 @@
+
+/*Sitewide formatting*/
 body {
     overflow-x: hidden;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -93,6 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 .container-fluid {
     margin-left: 15px;
 }
+
+/*Navigation formatting*/
 .navbar-default {
     background-color: #602E8E;
     border-color: #fff;
@@ -211,7 +215,9 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 44px;
     font-size: 1.5em;
 }
-}header {
+
+/*Header formatting*/
+header {
     background-image: url(../img/header-bg.jpg);
     background-repeat: none;
     background-attachment: scroll;
@@ -286,10 +292,13 @@ section h3.section-subheading {
     padding: 150px 0;
 }
 
+/*Services formatting*/
 .service-heading {
     margin: 15px 0;
     text-transform: none;
 }
+
+/*Old portfolio formatting*/
 #portfolio .portfolio-item {
     margin: 0 0 15px;
     right: 0;
@@ -353,6 +362,8 @@ section h3.section-subheading {
     #portfolio .portfolio-item {
     margin: 0 0 30px;
 }
+
+/*About formatting*/
 .about-portrait{
     margin: 15px;
     margin-top: 5px;
@@ -360,6 +371,8 @@ section h3.section-subheading {
 .about-text {
     margin-left: 15px;
 }
+
+/*Old team member formatting*/
 }.team-member {
     text-align: center;
     margin-bottom: 50px;
@@ -379,6 +392,8 @@ section h3.section-subheading {
 aside.clients img {
     margin: 50px auto;
 }
+
+/*Testimonials formatting*/
 section#testimonials {
     background-color: #d1c8e1;
     background-position: center;
@@ -397,12 +412,9 @@ section#testimonials .testimonial-border {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
-
 }
 
-section#contact .text-danger {
-    color: #e74c3c;
-}
+/*Contact formatting*/
 section#contact {
     background-color: #602E8E;
     background-image: url(../img/map-image.png);
@@ -455,6 +467,8 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
     color: #e74c3c;
 }
+
+/*Footer formatting*/
 footer {
     padding: 25px 0;
     text-align: center;
@@ -495,6 +509,8 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
     outline: 0;
 }
+
+/*Old portfolio formatting*/
 .portfolio-modal .modal-content {
     border-radius: 0;
     background-clip: border-box;
