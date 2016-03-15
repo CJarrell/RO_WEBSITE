@@ -73,12 +73,12 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 3px;
-    font-size: 18px;
-    padding: 20px 40px;
+    font-size: 22px;
+    padding: 10px 30px;
 }
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
-    color: #fff;
-    background-color: #151515;
+    color: #602E8E;
+    background-color: #d1c8e1;
     border-color: #602E8E;
 }
 .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
