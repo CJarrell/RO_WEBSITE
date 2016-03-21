@@ -271,7 +271,8 @@ header .intro-text .intro-heading {
     line-height: 75px;
     margin-bottom: 50px;
 }
-}section {
+}
+section {
     padding: 100px 0;
 }
 section h2.section-heading {
@@ -360,9 +361,9 @@ section h3.section-subheading {
 }
 @media (min-width:767px) {
     #portfolio .portfolio-item {
-    margin: 0 0 30px;
+        margin: 0 0 30px;
+    }
 }
-
 /*About formatting*/
 .about-portrait{
     margin: 15px;
