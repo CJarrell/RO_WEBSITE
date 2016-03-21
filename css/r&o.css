@@ -186,36 +186,36 @@ h1, h2, h3, h4, h5, h6 {
     -moz-transition: padding .3s;
     transition: padding .3s;
     border: 1;
+    }
+    .navbar-default .navbar-brand {
+        background: url(../img/r&o-branding/01_R&O-TOPNAV-BRAND.png) no-repeat;
+        margin: 0px;
+        padding-left: 20px;
+        background-size: 126px 50px;
+        min-width: 126px;
+        min-height: 50px;
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+    .navbar-default.navbar-shrink {
+        background-color: #602E8E;
+        padding: 20px 0;
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        background: url(../img/r&o-branding/02_R&O-ALTNAV-BRAND.png) no-repeat;
+        margin: -10px;
+        padding-left: 20px;
+        background-size: 229px 44px;
+        min-width: 229px;
+        min-height: 44px;
+        font-size: 1.5em;
+    }
 }
-.navbar-default .navbar-brand {
-    background: url(../img/r&o-branding/01_R&O-TOPNAV-BRAND.png) no-repeat;
-    margin: 0px;
-    padding-left: 20px;
-    background-size: 126px 50px;
-    min-width: 126px;
-    min-height: 50px;
-    font-size: 2em;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-}
-.navbar-default .navbar-nav>.active>a {
-    border-radius: 3px;
-}
-.navbar-default.navbar-shrink {
-    background-color: #602E8E;
-    padding: 20px 0;
-}
-.navbar-default.navbar-shrink .navbar-brand {
-    background: url(../img/r&o-branding/02_R&O-ALTNAV-BRAND.png) no-repeat;
-    margin: -10px;
-    padding-left: 20px;
-    background-size: 229px 44px;
-    min-width: 229px;
-    min-height: 44px;
-    font-size: 1.5em;
-}
-
 /*Header formatting*/
 header {
     background-image: url(../img/header-bg.jpg);
