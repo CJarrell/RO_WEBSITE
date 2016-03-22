@@ -406,6 +406,8 @@ section#testimonials {
     background-color: #d1c8e1;
     background-position: center;
     background-repeat: no-repeat;
+    border-top:double 3px #602E8E;
+    border-bottom:double 3px #fff;
 }
 section#testimonials .carousel-inner {
     height: 450px;
