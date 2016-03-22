@@ -292,6 +292,13 @@ section h3.section-subheading {
     section {
     padding: 150px 0;
 }
+section#testimonials {
+    padding: 0px 0;
+}
+@media (min-width:768px) {
+    section#testimonials {
+    padding: 0px 0;
+}
 
 /*Services formatting*/
 .service-heading {
@@ -400,20 +407,24 @@ section#testimonials {
     background-position: center;
     background-repeat: no-repeat;
 }
+section#testimonials .slide-wrapper {
+    position: relative;
+}
+
+section#testimonials .testimonials-bg {
+    background-color: #d1c8e1;
+    
+}
 section#testimonials .section-heading {
+    margin-top: 100px;
     color: #fff;
+    font-size: 25px;
 }
-section#testimonials .testimonial-border {
-    height: 250px;
-    width: 900px;
-    border-radius: 3px 3px 3px 3px;
-    -moz-border-radius: 3px 3px 3px 3px;
-    -webkit-border-radius: 3px 3px 3px 3px;
-    border: 2px ridge #602e8e;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 150px;
+section#testimonials .testimonial-text {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
 }
+
 
 /*Contact formatting*/
 section#contact {
