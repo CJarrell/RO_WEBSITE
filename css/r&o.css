@@ -306,6 +306,22 @@ section#testimonials {
     text-transform: none;
 }
 
+/*Approach Formatting*/
+#approach .approach-item {
+    background-color: #602E8E;
+    height: 450px;
+    border-radius: 4px;
+    margin: 15px;
+}
+#approach .col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 /*Old portfolio formatting*/
 #portfolio .portfolio-item {
     margin: 0 0 15px;
