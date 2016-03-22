@@ -411,12 +411,17 @@ section#testimonials {
     }
 }
 /*About formatting*/
-.about-portrait{
+#about .about-portrait{
     margin: 15px;
     margin-top: 5px;
 }
-.about-text {
+#about .about-text {
     margin-left: 15px;
+}
+#about .about-timeline {
+    margin-left: 10px;
+    background-color: #602E8E;
+    border-radius: 2px; 
 }
 
 /*Old team member formatting*/
