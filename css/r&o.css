@@ -411,7 +411,7 @@ section#testimonials {
     border-bottom:double 3px #fff;
 }
 section#testimonials .carousel-inner {
-    height: 450px;
+    height: 400px;
     margin: 0 auto;
     background-color: #d1c8e1;
 
@@ -425,9 +425,10 @@ section#testimonials .testimonials-bg {
 section#testimonials .section-heading {
     margin-top: 75px;
     color: #fff;
-    font-size: 25px;
+    font-size: 2em;
 }
 section#testimonials .testimonial-text {
+    font-size: 1.75em;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
 }
