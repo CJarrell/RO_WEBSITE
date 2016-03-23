@@ -6238,22 +6238,20 @@ button.close {
   border-left-color: #fff;
 }
 .carousel {
-  padding-top: 15px;
   position: relative;
-  background-color: #d1c8e1;
   border-top:double 3px #602E8E;
   border-bottom:double 3px #fff;
 
 }
 .carousel-inner {
   vertical-align: middle;
-  display: inline-block;
   position: relative;
+  height: 100%;
   width: 100%;
   overflow: hidden;
-  height: 600px;
+  
   margin: 0 auto;
-  }
+}
 .carousel-inner > .item {
   position: relative;
   
