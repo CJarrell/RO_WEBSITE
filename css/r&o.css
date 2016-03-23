@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
         text-transform: uppercase;
         font-weight: 400;
         font-size: 60%;
-        
+        letter-spacing: 1px;
         color: #fff;
     }
 }
@@ -255,22 +255,22 @@ header .intro-text .intro-heading {
     header .intro-text {
     padding-top: 75px;
     padding-bottom: 25px;
-}
-header .intro-text .intro-lead-in {
-    font-family: Montserat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: regular;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-}
+    }
+    header .intro-text .intro-lead-in {
+        font-family: Montserat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: regular;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    header .intro-text .intro-heading {
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px;
+    }
 }
 section {
     padding: 100px 0;
@@ -291,6 +291,7 @@ section h3.section-subheading {
 @media (min-width:768px) {
     section {
     padding: 150px 0;
+    }
 }
 section#testimonials {
     padding: 0px 0;
@@ -298,8 +299,8 @@ section#testimonials {
 @media (min-width:768px) {
     section#testimonials {
     padding: 0px 0;
+    }
 }
-
 /*Services formatting*/
 .service-heading {
     margin: 15px 0;
@@ -313,14 +314,7 @@ section#testimonials {
     border-radius: 4px;
     margin: 15px;
 }
-#approach .col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-}
+
 #approach .approach-heading {
     text-align: center;
     color: #fff;
@@ -443,7 +437,7 @@ section#testimonials {
     margin-top: 0;
 }
 aside.clients img {
-    margin: 50px auto;
+    margin: 0 auto;
 }
 
 /*Testimonials formatting*/
@@ -469,10 +463,17 @@ section#testimonials .section-heading {
     font-size: 2em;
 }
 section#testimonials .testimonial-text {
-    font-size: 1.75em;
+    font-size: 1em;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
 
+}
+@media (min-width:767px) {
+    section#testimonials .testimonial-text {
+        font-size: 1.75em;
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+    }
 }
 
 
