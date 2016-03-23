@@ -452,10 +452,16 @@ section#testimonials {
 section#testimonials .carousel {
     padding-top: 100px;
     padding-bottom: 150px;
-    
-
+    margin: 0 auto;
 }
-
+section#testimonials .testimonials-item{
+    width: 300px;
+}
+@media (min-width:767px) {
+    section#testimonials .testimonials-item{
+    width: 700px;
+    }
+}
 
 section#testimonials .section-heading {
     margin-top: 40px;
@@ -463,7 +469,7 @@ section#testimonials .section-heading {
     font-size: 2em;
 }
 section#testimonials .testimonial-text {
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
 
