@@ -461,8 +461,13 @@ section#testimonials .carousel-inner {
 
 }
 
+section#testimonials .img-wrapper {
+     height: 45px;
+
+}
+
 section#testimonials .section-heading {
-    margin-top: 75px;
+    margin-top: 40px;
     color: #fff;
     font-size: 2em;
 }
