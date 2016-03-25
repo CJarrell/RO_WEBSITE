@@ -413,10 +413,18 @@ section#testimonials {
     margin-left: 15px;
 }
 #about .about-timeline {
-    background-color: #602E8E;
+
     border-radius: 2px;
-    padding-left: 10px;
-    height: 450px;
+}
+#about .about-timeline .timeline-style {
+
+    border-top:solid 1px #602E8E;
+    border-left:solid 2px #602E8E;
+    border-bottom:solid 1px #602E8E;
+   
+}
+#about .about-timeline .about-timeline-text {
+    padding: 5px;
 }
 
 /*Old team member formatting*/
