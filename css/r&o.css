@@ -1,4 +1,17 @@
 
+/*Install Stars from our eyes*/
+@font-face {
+    font-family: 'Stars-From-Our-Eyes';
+    src:url('../fonts/Stars-From-Our-Eyes.ttf') format('truetype'),
+        url('../fonts/Stars-From-Our-Eyes.ttf.woff') format('woff'),
+        url('../fonts/Stars-From-Our-Eyes.ttf.svg#Stars-From-Our-Eyes') format('svg'),
+        url('../fonts/Stars-From-Our-Eyes.ttf.eot'),
+        url('../fonts/Stars-From-Our-Eyes.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /*Sitewide formatting*/
 body {
     overflow-x: hidden;
@@ -217,6 +230,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1.5em;
     }
 }
+
 /*Header formatting*/
 header {
     background-image: url(../img/header-bg-after.jpg);
@@ -238,11 +252,14 @@ header .intro-text .img-responsive {
     margin: 0 auto;
 }
 header .intro-text .intro-lead-in {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
     font-style: regular;
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px;
+}
+header .intro-text .fa-heart {
+    color: #d92329;
 }
 header .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -258,7 +275,7 @@ header .intro-text .intro-heading {
     padding-bottom: 25px;
     }
     header .intro-text .intro-lead-in {
-        font-family: Montserat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
         font-style: regular;
         font-size: 40px;
         line-height: 40px;
