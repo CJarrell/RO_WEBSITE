@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width:767px) {
     .navbar-default {
     background-color: #602E8E;
-    opacity: 0.75;
+    opacity: 0.9;
     padding: 20px 0;
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
