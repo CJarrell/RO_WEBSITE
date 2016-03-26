@@ -245,7 +245,7 @@ header {
     color: #fff;
 }
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 50px;
 }
 header .intro-text .img-responsive {
@@ -255,7 +255,7 @@ header .intro-text .intro-lead-in {
     font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
     font-style: regular;
     font-size: 22px;
-    line-height: 22px;
+    line-height: 35px;
     margin-bottom: 25px;
 }
 header .intro-text .fa-heart {
@@ -266,19 +266,19 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
-    line-height: 50px;
+    line-height: 65px;
     margin-bottom: 25px;
 }
 @media (min-width:767px) {
     header .intro-text {
-    padding-top: 75px;
-    padding-bottom: 25px;
+        padding-top: 75px;
+        padding-bottom: 25px;
     }
     header .intro-text .intro-lead-in {
         font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
         font-style: regular;
         font-size: 40px;
-        line-height: 40px;
+        line-height: 65px;
         margin-bottom: 25px;
     }
     header .intro-text .intro-heading {
@@ -456,7 +456,6 @@ section#testimonials {
 #about .about-timeline .about-timeline-text {
     padding: 5px;
 }
-
 
 
 /*Old team member formatting*/
