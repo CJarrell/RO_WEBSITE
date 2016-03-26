@@ -456,7 +456,15 @@ section#testimonials {
 #about .about-timeline .about-timeline-text {
     padding: 5px;
 }
-
+/*Before & After Formatting*/
+#beforeandafter .before {
+    background-color: #323332;
+    height: 300px;
+}
+#beforeandafter .after {
+    background-color: #222;
+    height: 300px;
+}
 
 /*Old team member formatting*/
 .team-member {
