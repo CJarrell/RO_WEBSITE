@@ -309,14 +309,25 @@ section#testimonials {
 }
 
 /*Approach Formatting*/
+#approach {
+   border-top:double 3px #222;
+   border-bottom:double 3px #602E8E;
+   
+   
 
-#approach .approach-item {
+}
+#approach .approach-container {
+    margin: 0 auto;
+}
+#approach div{
     background-color: #602E8E;
     border-radius: 4px;
-    margin: 15px;
+    padding: 15px;
+
+    
 }
 
-#approach .approach-heading {
+#approach .section-heading {
     text-align: center;
     color: #fff;
 }
