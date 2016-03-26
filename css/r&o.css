@@ -338,6 +338,7 @@ section#testimonials {
     border-bottom-right-radius:5px;
 
 }
+/*Approach table*/
 
 /*Old portfolio formatting*/
 #portfolio .portfolio-item {
@@ -426,6 +427,8 @@ section#testimonials {
 #about .about-timeline .about-timeline-text {
     padding: 5px;
 }
+
+
 
 /*Old team member formatting*/
 .team-member {
