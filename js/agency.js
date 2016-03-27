@@ -26,12 +26,19 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 //jQuery to reveal before and after images
-
-$('.af-animate').on( {
-  mouseenter: function() {
-    $('.reveal-after').toggle("slide");
+$('.be-animate').hover(
+  function() {
+    $('.be-animate > .reveal-before').slideToggle();
   },
-  mouseleave: function() {
-    $(this).fadeIn();
+  function() {
+    $('.be-animate > .reveal-before').slideToggle();
   }
-});
+);
+$('.af-animate').hover(
+  function() {
+    $('.af-animate > .reveal-after').slideToggle();
+  },
+  function() {
+    $('.af-animate > .reveal-after').slideToggle();
+  }
+);

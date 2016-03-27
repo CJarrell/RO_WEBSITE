@@ -493,12 +493,6 @@ section#testimonials {
     width: 100%;
     
 }
-#beforeandafter .reveal-before:hover {
-    background-image: none;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-}
 #beforeandafter .reveal-after {
     background-image: url(../img/r&o-branding/09-after.png);
     background-size: cover;
@@ -506,12 +500,6 @@ section#testimonials {
     width: 100%;
     
 }
-/*#beforeandafter .reveal-after:hover {
-    background-image: none;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-}*/
 
 /*Old team member formatting*/
 .team-member {
