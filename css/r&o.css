@@ -13,6 +13,9 @@
 
 
 /*Sitewide formatting*/
+html, body {
+    height: 100%;
+}
 body {
     overflow-x: hidden;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -457,23 +460,59 @@ section#testimonials {
     padding: 5px;
 }
 /*Before & After Formatting*/
-#beforeandafter .before {
-    background-color: #323332;
+
+#beforeandafter .before1 {
+    background-image: url(../img/before-and-after/aptB1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
     height: 300px;
+    box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
 }
-#beforeandafter .after {
-    background-color: #222;
-    height: 300px;
+#beforeandafter .after1 {
+    background-image: url(../img/before-and-after/aptA1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 300px; 
+    box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
 }
-#beforeandafter .after .reveal {
-    background-color: #602E8E;
+
+/*Reveal Styling*/
+#beforeandafter h2 {
+    visibility: hidden;
 }
-#beforeandafter .after .reveal:hover {
-    background-color: #222;
+#beforeandafter .reveal-before {
+    background-image: url(../img/r&o-branding/08-before.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+#beforeandafter .reveal-before:hover {
+    background-image: none;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
 }
+#beforeandafter .reveal-after {
+    background-image: url(../img/r&o-branding/09-after.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+#beforeandafter .reveal-after:hover {
+    background-image: none;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
 /*Old team member formatting*/
 .team-member {
     text-align: center;
