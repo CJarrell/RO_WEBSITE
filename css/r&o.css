@@ -506,12 +506,12 @@ section#testimonials {
     width: 100%;
     
 }
-#beforeandafter .reveal-after:hover {
+/*#beforeandafter .reveal-after:hover {
     background-image: none;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-}
+}*/
 
 /*Old team member formatting*/
 .team-member {

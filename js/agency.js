@@ -24,3 +24,14 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+//jQuery to reveal before and after images
+
+$('.af-animate').on( {
+  mouseenter: function() {
+    $('.reveal-after').toggle("slide");
+  },
+  mouseleave: function() {
+    $(this).fadeIn();
+  }
+});
