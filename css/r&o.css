@@ -465,7 +465,15 @@ section#testimonials {
     background-color: #222;
     height: 300px;
 }
-
+#beforeandafter .after .reveal {
+    background-color: #602E8E;
+}
+#beforeandafter .after .reveal:hover {
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
 /*Old team member formatting*/
 .team-member {
     text-align: center;
