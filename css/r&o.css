@@ -352,6 +352,7 @@ section#testimonials {
     margin: 0;
     margin-top: 35px;
 }
+
 #approach ul p {
     font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
     font-style: regular;
@@ -359,7 +360,7 @@ section#testimonials {
     color: #602E8E;
     text-align: center;
     padding-top: 7px;
-    padding-right: 5px;
+    padding-right: 4px;
     
 }
 #approach ul p.step-number-left {
@@ -382,7 +383,7 @@ section#testimonials {
     border-bottom-left-radius:50%;
     border-bottom-right-radius:50%;
     top: 1.5em;
-    left: 4.3em;
+    left: 4.2em;
 
 
 }
