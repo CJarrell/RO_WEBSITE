@@ -332,30 +332,87 @@ section#testimonials {
 #approach {
    border-top:double 3px #222;
    border-bottom:double 3px #602E8E;
+   background-color: #602E8E;
    
-   
 
 }
-#approach .approach-container {
-    margin: 0 auto;
-}
-#approach div{
-    background-color: #602E8E;
-    border-radius: 4px;
-    padding: 15px;
-
-    
-}
-
 #approach .section-heading {
     text-align: center;
     color: #fff;
 }
-#approach .approach-inner-div {
-    margin: 5px;
-    border-radius: 2px;
+/*Approach Lists*/
+#approach ul {
     background-color: #d1c8e1;
-    border:inset 3px #ffffff;
+    list-style: none;
+    box-shadow: 0 0 7px #fff;
+    -webkit-box-shadow: 0 0 7px #fff;
+    -moz-box-shadow: 0 0 7px #fff;
+    -o-box-shadow:0 0 7px #fff;
+    position: relative;
+    margin: 0;
+    margin-top: 35px;
+}
+#approach ul p {
+    font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
+    font-style: regular;
+    font-size: 50px;
+    color: #602E8E;
+    text-align: center;
+    padding-top: 7px;
+    padding-right: 5px;
+    
+}
+#approach ul p.step-number-left {
+    background-color: #fff;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border:solid 3px #602E8E;
+    border-radius: 50%;
+    -moz-border-radius-topleft: 50%;
+    -moz-border-radius-topright:50%;
+    -moz-border-radius-bottomleft:50%;
+    -moz-border-radius-bottomright:50%;
+    -webkit-border-top-left-radius:50%;
+    -webkit-border-top-right-radius:50%;
+    -webkit-border-bottom-left-radius:50%;
+    -webkit-border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    top: 1.5em;
+    left: 4.3em;
+
+
+}
+#approach ul p.step-number-right {
+    background-color: #fff;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border:solid 3px #602E8E;
+    border-radius: 50%;
+    -moz-border-radius-topleft: 50%;
+    -moz-border-radius-topright:50%;
+    -moz-border-radius-bottomleft:50%;
+    -moz-border-radius-bottomright:50%;
+    -webkit-border-top-left-radius:50%;
+    -webkit-border-top-right-radius:50%;
+    -webkit-border-bottom-left-radius:50%;
+    -webkit-border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    top: 1.5em;
+    right: 4.3em;
+
+}
+#approach ul li {
+    display: inline-block;
+    padding: 0px;
+    border-radius: 10px;
     -moz-border-radius-topleft: 5px;
     -moz-border-radius-topright:5px;
     -moz-border-radius-bottomleft:5px;
@@ -368,24 +425,32 @@ section#testimonials {
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
     border-bottom-right-radius:5px;
+}
+#approach ul li.list-img-left {
+    padding: 0px;
+    margin-left: -40px;
+    float: left;
 
 }
-/*Approach Lists*/
-#approach ul {
-    background-color: #602E8E;
-    list-style: none;
-    box-shadow: 0 0 5px #aaa;
-    -webkit-box-shadow: 0 0 5px #aaa;
-    -moz-box-shadow: 0 0 5px #aaa;
-    -o-box-shadow:0 0 5px #aaa;
-    position: relative;
-    margin: 0;
+#approach ul .list-img-left img{
+    padding: 0px;
+    float: left;
+    width: 40%;
+    height: auto;
+    border-right: solid 3px #602E8E;
 }
-#approach ul li {
-    display: inline-block;
+#approach ul li.list-img-right {
+    padding: 0px;
+    margin-right: -386px;
+    float: right;
+
 }
-#approach ul li.list-img-1{
-    
+#approach ul .list-img-right img{
+    padding: 0px;
+    float: left;
+    width: 40%;
+    height: auto;
+    border-left: solid 3px #602E8E;
 }
 
 /*Old portfolio formatting*/
