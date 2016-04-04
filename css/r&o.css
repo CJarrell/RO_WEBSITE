@@ -552,7 +552,17 @@ section#testimonials {
     color: #fff;
 }
 #beforeandafter h3{
-    color: #602E8E;
+    /*color: #602E8E;*/
+}
+#beforeandafter .ba-box-1{
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1.5px solid #fff;
+}
+#beforeandafter .ba-box-2{
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1.5px dotted #fff;
 }
 
 /*Before and After 1*/
@@ -658,7 +668,7 @@ section#testimonials {
         background-size: cover;
         padding-left: 0px;
         padding-right: 0px;
-        width: 25%;
+        width: 50%;
         height: 300px; 
         box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
     }
@@ -669,7 +679,7 @@ section#testimonials {
         background-size: cover;
         padding-left: 0px;
         padding-right: 0px;
-        width: 25%;
+        width: 50%;
         height: 300px;  
         box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
     }
@@ -681,7 +691,7 @@ section#testimonials {
         background-size: cover;
         padding-left: 0px;
         padding-right: 0px;
-        width: 25%;
+        width: 50%;
         height: 300px; 
         box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
     }
@@ -692,7 +702,7 @@ section#testimonials {
         background-size: cover;
         padding-left: 0px;
         padding-right: 0px;
-        width: 25%;
+        width: 50%;
         height: 300px;  
         box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
     }
@@ -704,7 +714,7 @@ section#testimonials {
         background-size: cover;
         padding-left: 0px;
         padding-right: 0px;
-        width: 25%;
+        width: 50%;
         height: 300px; 
         box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
     }
@@ -715,7 +725,7 @@ section#testimonials {
         background-size: cover;
         padding-left: 0px;
         padding-right: 0px;
-        width: 25%;
+        width: 50%;
         height: 300px;  
         box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
     }
@@ -727,7 +737,7 @@ section#testimonials {
         background-size: cover;
         padding-left: 0px;
         padding-right: 0px;
-        width: 25%;
+        width: 50%;
         height: 300px; 
         box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
     }
@@ -738,7 +748,7 @@ section#testimonials {
         background-size: cover;
         padding-left: 0px;
         padding-right: 0px;
-        width: 25%;
+        width: 50%;
         height: 300px; 
         box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
     }
