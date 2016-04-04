@@ -544,6 +544,7 @@ section#testimonials {
 /*Before & After Formatting*/
 #beforeandafter {
     background-color: #222;
+    border-top: double 2px #602E8E;
 }
 #beforeandafter .container{
     display: inline-block;
