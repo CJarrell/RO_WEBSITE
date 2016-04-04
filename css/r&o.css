@@ -353,7 +353,8 @@ section#testimonials {
     margin-top: 35px;
 }
 
-#approach ul p {
+
+#approach ul p.step-number-left {
     font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
     font-style: regular;
     font-size: 50px;
@@ -361,9 +362,6 @@ section#testimonials {
     text-align: center;
     padding-top: 7px;
     padding-right: 4px;
-    
-}
-#approach ul p.step-number-left {
     background-color: #fff;
     position: absolute;
     width: 85px;
@@ -382,12 +380,19 @@ section#testimonials {
     border-top-right-radius:50%;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:50%;
-    top: 1.5em;
-    left: 4.2em;
+    top: 1.7em;
+    left: 4.3em;
 
 
 }
 #approach ul p.step-number-right {
+    font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
+    font-style: regular;
+    font-size: 50px;
+    color: #602E8E;
+    text-align: center;
+    padding-top: 7px;
+    padding-right: 4px;
     background-color: #fff;
     position: absolute;
     width: 85px;
@@ -406,12 +411,11 @@ section#testimonials {
     border-top-right-radius:50%;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:50%;
-    top: 1.5em;
+    top: 1.7em;
     right: 4.3em;
 
 }
 #approach ul li {
-    display: inline-block;
     padding: 0px;
     border-radius: 10px;
     -moz-border-radius-topleft: 5px;
@@ -431,27 +435,40 @@ section#testimonials {
     padding: 0px;
     margin-left: -40px;
     float: left;
+    width: auto;
 
 }
 #approach ul .list-img-left img{
     padding: 0px;
-    float: left;
-    width: 40%;
-    height: auto;
+    width: 80%;
     border-right: solid 3px #602E8E;
+}
+#approach p.approach-subtext {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: regular;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 7px;
+    padding-right: 4px;
+    
+}
+#approach ul li.list-description-right{
+    margin: 25px;
+    padding-top: 25px;
 }
 #approach ul li.list-img-right {
     padding: 0px;
-    margin-right: -386px;
     float: right;
-
+    transform: translateX(65px);
 }
 #approach ul .list-img-right img{
     padding: 0px;
-    float: left;
-    width: 40%;
-    height: auto;
+    width: 80%;
     border-left: solid 3px #602E8E;
+}
+#approach ul li.list-description-left{
+    margin: 0px;
+    padding-top: 25px;
 }
 
 /*About formatting*/
