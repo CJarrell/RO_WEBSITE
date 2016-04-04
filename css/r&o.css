@@ -542,6 +542,19 @@ section#testimonials {
     padding: 5px;
 }
 /*Before & After Formatting*/
+#beforeandafter {
+    background-color: #222;
+}
+#beforeandafter .container{
+    display: inline-block;
+}
+#beforeandafter h1{
+    color: #fff;
+}
+#beforeandafter h3{
+    color: #602E8E;
+}
+
 /*Before and After 1*/
 #beforeandafter .before1 {
     background-image: url(../img/before-and-after/aptB1.jpg);
@@ -550,7 +563,8 @@ section#testimonials {
     background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
 }
 #beforeandafter .after1 {
@@ -560,7 +574,8 @@ section#testimonials {
     background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
-    height: 300px; 
+    width: 100%;
+    height: 350px; 
     box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
 }
 /*Before and After 2*/
@@ -571,7 +586,8 @@ section#testimonials {
     background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
 }
 #beforeandafter .after2 {
@@ -581,7 +597,8 @@ section#testimonials {
     background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
-    height: 300px; 
+    width: 100%;
+    height: 350px; 
     box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
 }
 /*Before and After 3*/
@@ -592,7 +609,8 @@ section#testimonials {
     background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
 }
 #beforeandafter .after3 {
@@ -602,7 +620,8 @@ section#testimonials {
     background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
-    height: 300px; 
+    width: 100%;
+    height: 350px; 
     box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
 }
 /*Before and After 4*/
@@ -613,7 +632,8 @@ section#testimonials {
     background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
 }
 #beforeandafter .after4 {
@@ -623,8 +643,105 @@ section#testimonials {
     background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
-    height: 300px; 
+    width: 100%;
+    height: 350px; 
     box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
+}
+
+/*Before and After Media queries*/
+@media (min-width: 767px) {
+    /*Before and After 1*/
+    #beforeandafter .before1 {
+        background-image: url(../img/before-and-after/aptB1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 25%;
+        height: 300px; 
+        box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
+    }
+    #beforeandafter .after1 {
+        background-image: url(../img/before-and-after/aptA1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 25%;
+        height: 300px;  
+        box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
+    }
+    /*Before and After 2*/
+    #beforeandafter .before2 {
+        background-image: url(../img/before-and-after/tessaB7.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 25%;
+        height: 300px; 
+        box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
+    }
+    #beforeandafter .after2 {
+        background-image: url(../img/before-and-after/tessaA7.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 25%;
+        height: 300px;  
+        box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
+    }
+    /*Before and After 3*/
+    #beforeandafter .before3 {
+        background-image: url(../img/before-and-after/tessaB7.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 25%;
+        height: 300px; 
+        box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
+    }
+    #beforeandafter .after3 {
+        background-image: url(../img/before-and-after/tessaA7.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 25%;
+        height: 300px;  
+        box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
+    }
+    /*Before and After 4*/
+    #beforeandafter .before4 {
+        background-image: url(../img/before-and-after/tessaB7.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 25%;
+        height: 300px; 
+        box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
+    }
+    #beforeandafter .after4 {
+        background-image: url(../img/before-and-after/tessaA7.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 25%;
+        height: 300px; 
+        box-shadow: inset 0px 0px 75px rgba(255,255,255,0.4);   
+    }
 }
 /*Reveal Styling*/
 #beforeandafter h2 {
@@ -635,14 +752,16 @@ section#testimonials {
     background-size: cover;
     height: 100%;
     width: 100%;
-    
+    outline: 1.5px dotted #fff;
+    outline-offset: -15px;
 }
 #beforeandafter .reveal-after {
     background-image: url(../img/r&o-branding/09-after.png);
     background-size: cover;
     height: 100%;
     width: 100%;
-    
+    outline: 3px double #fff;
+    outline-offset: -15px;
 }
 
 /*Old team member formatting*/
