@@ -29,71 +29,71 @@ $('.navbar-collapse ul li a').click(function() {
 // Before and After Pair 1
 $('.before1').hover(
   function() {
-    $('.before1 > .reveal-before').slideToggle();
+    $('.before1 > .reveal-before-top').slideToggle();
   },
   function() {
-    $('.before1 > .reveal-before').slideToggle();
+    $('.before1 > .reveal-before-top').slideToggle();
   }
 );
 $('.after1').hover(
   function() {
-    $('.after1 > .reveal-after').slideToggle();
+    $('.after1 > .reveal-after-top').slideToggle();
   },
   function() {
-    $('.after1 > .reveal-after').slideToggle();
+    $('.after1 > .reveal-after-top').slideToggle();
   }
 );
 
 // Before and After Pair 2
 $('.before2').hover(
   function() {
-    $('.before2 > .reveal-before').slideToggle();
+    $('.before2 > .reveal-before-top').slideToggle();
   },
   function() {
-    $('.before2 > .reveal-before').slideToggle();
+    $('.before2 > .reveal-before-top').slideToggle();
   }
 );
 $('.after2').hover(
   function() {
-    $('.after2 > .reveal-after').slideToggle();
+    $('.after2 > .reveal-after-top').slideToggle();
   },
   function() {
-    $('.after2 > .reveal-after').slideToggle();
+    $('.after2 > .reveal-after-top').slideToggle();
   }
 );
 
 // Before and After Pair 3
 $('.before3').hover(
   function() {
-    $('.before3 > .reveal-before').slideToggle();
+    $('.before3 > .reveal-before-bottom').slideToggle();
   },
   function() {
-    $('.before3 > .reveal-before').slideToggle();
+    $('.before3 > .reveal-before-bottom').slideToggle();
   }
 );
 $('.after3').hover(
   function() {
-    $('.after3 > .reveal-after').slideToggle();
+    $('.after3 > .reveal-after-bottom').slideToggle();
   },
   function() {
-    $('.after3 > .reveal-after').slideToggle();
+    $('.after3 > .reveal-after-bottom').slideToggle();
   }
 );
 
 // Before and After Pair 4
 $('.before4').hover(
   function() {
-    $('.before4 > .reveal-before').slideToggle();
+    $('.before4 > .reveal-before-bottom').slideToggle();
   },
   function() {
-    $('.before4 > .reveal-before').slideToggle();
+    $('.before4 > .reveal-before-bottom').slideToggle();
   }
 );
 $('.after4').hover(
   function() {
-    $('.after4 > .reveal-after').slideToggle();
+    $('.after4 > .reveal-after-bottom').slideToggle();
   },
   function() {
-    $('.after4 > .reveal-after').slideToggle();
+    $('.after4 > .reveal-after-bottom').slideToggle();
   }
 );

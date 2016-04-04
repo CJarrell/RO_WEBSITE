@@ -762,7 +762,7 @@ section#testimonials {
 #beforeandafter h2 {
     visibility: hidden;
 }
-#beforeandafter .reveal-before {
+#beforeandafter .reveal-before-top {
     background-image: url(../img/r&o-branding/08-before.png);
     background-repeat: no-repeat;
     background-size: inherit;
@@ -771,7 +771,7 @@ section#testimonials {
     outline: 1.5px dotted #fff;
     outline-offset: -15px;
 }
-#beforeandafter .reveal-after {
+#beforeandafter .reveal-after-top {
     background-image: url(../img/r&o-branding/09-after.png);
     background-repeat: no-repeat;
     background-size: inherit;
@@ -780,7 +780,24 @@ section#testimonials {
     outline: 3px double #fff;
     outline-offset: -15px;
 }
-
+#beforeandafter .reveal-before-bottom {
+    background-image: url(../img/r&o-branding/08-before-2.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center center;
+    height: 100%;
+    outline: 1.5px dotted #fff;
+    outline-offset: -15px;
+}
+#beforeandafter .reveal-after-bottom {
+    background-image: url(../img/r&o-branding/09-after-2.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center center;
+    height: 100%;
+    outline: 3px double #fff;
+    outline-offset: -15px;
+}
 
 /*Old team member formatting*/
 .team-member {
