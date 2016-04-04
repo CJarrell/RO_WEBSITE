@@ -571,7 +571,7 @@ section#testimonials {
 
 /*Before and After 1*/
 #beforeandafter .before1 {
-    background-image: url(../img/before-and-after/aptB1.jpg);
+    background-image: url(../img/before-and-after/B1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -582,7 +582,7 @@ section#testimonials {
     box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
 }
 #beforeandafter .after1 {
-    background-image: url(../img/before-and-after/aptA1.jpg);
+    background-image: url(../img/before-and-after/A1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -594,7 +594,7 @@ section#testimonials {
 }
 /*Before and After 2*/
 #beforeandafter .before2 {
-    background-image: url(../img/before-and-after/tessaB7.jpg);
+    background-image: url(../img/before-and-after/B2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -605,7 +605,7 @@ section#testimonials {
     box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
 }
 #beforeandafter .after2 {
-    background-image: url(../img/before-and-after/tessaA7.jpg);
+    background-image: url(../img/before-and-after/A2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -617,7 +617,7 @@ section#testimonials {
 }
 /*Before and After 3*/
 #beforeandafter .before3 {
-    background-image: url(../img/before-and-after/tessaB7.jpg);
+    background-image: url(../img/before-and-after/B3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -628,7 +628,7 @@ section#testimonials {
     box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
 }
 #beforeandafter .after3 {
-    background-image: url(../img/before-and-after/tessaA7.jpg);
+    background-image: url(../img/before-and-after/A3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -640,7 +640,7 @@ section#testimonials {
 }
 /*Before and After 4*/
 #beforeandafter .before4 {
-    background-image: url(../img/before-and-after/tessaB7.jpg);
+    background-image: url(../img/before-and-after/B4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -651,7 +651,7 @@ section#testimonials {
     box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
 }
 #beforeandafter .after4 {
-    background-image: url(../img/before-and-after/tessaA7.jpg);
+    background-image: url(../img/before-and-after/A4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -666,7 +666,7 @@ section#testimonials {
 @media (min-width: 767px) {
     /*Before and After 1*/
     #beforeandafter .before1 {
-        background-image: url(../img/before-and-after/aptB1.jpg);
+        background-image: url(../img/before-and-after/B1.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -677,7 +677,7 @@ section#testimonials {
         box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
     }
     #beforeandafter .after1 {
-        background-image: url(../img/before-and-after/aptA1.jpg);
+        background-image: url(../img/before-and-after/A1.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -689,7 +689,7 @@ section#testimonials {
     }
     /*Before and After 2*/
     #beforeandafter .before2 {
-        background-image: url(../img/before-and-after/tessaB7.jpg);
+        background-image: url(../img/before-and-after/B2.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -700,7 +700,7 @@ section#testimonials {
         box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
     }
     #beforeandafter .after2 {
-        background-image: url(../img/before-and-after/tessaA7.jpg);
+        background-image: url(../img/before-and-after/A2.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -712,7 +712,7 @@ section#testimonials {
     }
     /*Before and After 3*/
     #beforeandafter .before3 {
-        background-image: url(../img/before-and-after/tessaB7.jpg);
+        background-image: url(../img/before-and-after/B3.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -723,7 +723,7 @@ section#testimonials {
         box-shadow: inset 0px 0px 75px rgba(0,0,0,1);
     }
     #beforeandafter .after3 {
-        background-image: url(../img/before-and-after/tessaA7.jpg);
+        background-image: url(../img/before-and-after/A3.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -735,7 +735,7 @@ section#testimonials {
     }
     /*Before and After 4*/
     #beforeandafter .before4 {
-        background-image: url(../img/before-and-after/tessaB7.jpg);
+        background-image: url(../img/before-and-after/B4.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -747,7 +747,7 @@ section#testimonials {
     }
     #beforeandafter .after4 {
         float: right;
-        background-image: url(../img/before-and-after/tessaA7.jpg);
+        background-image: url(../img/before-and-after/A4.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
