@@ -473,26 +473,67 @@ section#testimonials {
 }
 
 /*About formatting*/
+#about{
+   background-color: #fff;
+}
 #about .about-portrait{
     margin: 15px;
     margin-top: 5px;
 }
-#about .about-text {
+#about .about-text{
     margin-left: 15px;
 }
-#about .about-timeline {
+#about .about-timeline{
 
     border-radius: 2px;
 }
-#about .about-timeline .timeline-style {
-
-    border-top:solid 1px #602E8E;
+#about .about-timeline .timeline-style-top{
+    border-top:solid 1.5px #602E8E;
     border-left:solid 2px #602E8E;
-    border-bottom:solid 1px #602E8E;
-   
+    border-bottom:solid 1.5px #602E8E;
 }
-#about .about-timeline .about-timeline-text {
+#about .about-timeline .timeline-style{
+    border-left:solid 2px #602E8E;
+    border-bottom:solid 1.5px #602E8E;
+}
+#about .about-timeline .about-timeline-text{
     padding: 5px;
+    padding-top: 20px;
+}
+#about .event-container{
+    position: relative;
+}
+#about .date{
+    background-color: #fff;
+    position: absolute;
+    padding: 3px 7px 3px 7px;
+    left: 145px;
+}
+#about .date h3{
+    font-size: 1.5em;
+    font-weight: 450;
+    margin: 0 auto;
+}
+#about .d1{
+    top: -15px;
+}
+#about .d2{
+    top: -15px;
+}
+#about .d3{
+    top: -15px;
+}
+#about .d4{
+    top: -15px;
+}
+#about .d5{
+    top: -15px;
+}
+#about .d6{
+    top: -15px;
+}
+#about .d7{
+    bottom: -12px;
 }
 /*Before & After Formatting*/
 #beforeandafter {
@@ -506,7 +547,7 @@ section#testimonials {
     color: #fff;
 }
 #beforeandafter h3{
-    /*color: #602E8E;*/
+    color: #602E8E;
 }
 #beforeandafter .ba-box-1{
     padding-left: 0px;
