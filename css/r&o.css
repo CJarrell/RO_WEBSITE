@@ -508,7 +508,15 @@ section#testimonials {
     background-color: #fff;
     position: absolute;
     padding: 3px 7px 3px 7px;
-    right: 0px;
+    left: 200px;
+}
+@media (min-width: 767px){
+    #about .date{
+        background-color: #fff;
+        position: absolute;
+        padding: 3px 7px 3px 7px;
+        left: 149px;
+    }
 }
 #about .date h3{
     font-size: 1.5em;
@@ -523,7 +531,7 @@ section#testimonials {
 }
 #about .d3{
     top: -15px;
-    right: 1px;
+    left: 151px;
 }
 #about .d4{
     top: -15px;
