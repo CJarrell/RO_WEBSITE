@@ -18,7 +18,7 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
@@ -26,80 +26,110 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 //jQuery to reveal before and after images
-// Before and After Pair 1 Dual Reveal
-$("#reveal-button").click(
-  function(){
-    $('.before1 > .reveal-before-top').slideToggle();
-    $('.after1 > .reveal-after-top').slideToggle();
-  }
-);
-// Before and After Pair 1
-$('.before1').hover(
-  function() {
-    $('.before1 > .reveal-before-top').slideToggle();
-  },
-  function() {
-    $('.before1 > .reveal-before-top').slideToggle();
-  }
-);
-$('.after1').hover(
-  function() {
-    $('.after1 > .reveal-after-top').slideToggle();
-  },
-  function() {
-    $('.after1 > .reveal-after-top').slideToggle();
-  }
-);
-// Before and After Pair 2
-$('.before2').hover(
-  function() {
-    $('.before2 > .reveal-before-top').slideToggle();
-  },
-  function() {
-    $('.before2 > .reveal-before-top').slideToggle();
-  }
-);
-$('.after2').hover(
-  function() {
-    $('.after2 > .reveal-after-top').slideToggle();
-  },
-  function() {
-    $('.after2 > .reveal-after-top').slideToggle();
-  }
-);
+$(function() {
+  // Before and After Pair 1 Dual Reveal
+  $("#reveal-button-1").click(
+    function(){
+      $('.before1 > .reveal-before-top').slideToggle();
+      $('.after1 > .reveal-after-top').slideToggle();
+    }
+  );
+  // Before and After Pair 1
+  $('.before1').hover(
+    function() {
+      $('.before1 > .reveal-before-top').slideToggle();
+    },
+    function() {
+      $('.before1 > .reveal-before-top').slideToggle();
+    }
+  );
+  $('.after1').hover(
+    function() {
+      $('.after1 > .reveal-after-top').slideToggle();
+    },
+    function() {
+      $('.after1 > .reveal-after-top').slideToggle();
+    }
+  );
+});
 
-// Before and After Pair 3
-$('.before3').hover(
-  function() {
-    $('.before3 > .reveal-before-bottom').slideToggle();
-  },
-  function() {
-    $('.before3 > .reveal-before-bottom').slideToggle();
-  }
-);
-$('.after3').hover(
-  function() {
-    $('.after3 > .reveal-after-bottom').slideToggle();
-  },
-  function() {
-    $('.after3 > .reveal-after-bottom').slideToggle();
-  }
-);
+$(function() {
+  // Before and After Pair 2 Dual Reveal
+  $("#reveal-button-2").click(
+    function(){
+      $('.before2 > .reveal-before-bottom').slideToggle();
+      $('.after2 > .reveal-after-bottom').slideToggle();
+    }
+  );
+  // Before and After Pair 2
+  $('.before2').hover(
+    function() {
+      $('.before2 > .reveal-before-bottom').slideToggle();
+    },
+    function() {
+      $('.before2 > .reveal-before-bottom').slideToggle();
+    }
+  );
+  $('.after2').hover(
+    function() {
+      $('.after2 > .reveal-after-bottom').slideToggle();
+    },
+    function() {
+      $('.after2 > .reveal-after-bottom').slideToggle();
+    }
+  );
+});
 
-// Before and After Pair 4
-$('.before4').hover(
-  function() {
-    $('.before4 > .reveal-before-bottom').slideToggle();
-  },
-  function() {
-    $('.before4 > .reveal-before-bottom').slideToggle();
-  }
-);
-$('.after4').hover(
-  function() {
-    $('.after4 > .reveal-after-bottom').slideToggle();
-  },
-  function() {
-    $('.after4 > .reveal-after-bottom').slideToggle();
-  }
-);
+$(function() {
+  // Before and After Pair 3 Dual Reveal
+  $("#reveal-button-3").click(
+    function(){
+      $('.before3 > .reveal-before-top').slideToggle();
+      $('.after3 > .reveal-after-top').slideToggle();
+    }
+  );
+  // Before and After Pair 3
+  $('.before3').hover(
+    function() {
+      $('.before3 > .reveal-before-top').slideToggle();
+    },
+    function() {
+      $('.before3 > .reveal-before-top').slideToggle();
+    }
+  );
+  $('.after3').hover(
+    function() {
+      $('.after3 > .reveal-after-top').slideToggle();
+    },
+    function() {
+      $('.after3 > .reveal-after-top').slideToggle();
+    }
+  );
+});
+
+$(function() {
+  // Before and After Pair 4 Dual Reveal
+  $("#reveal-button-4").click(
+    function() {
+      $('.before4 > .reveal-before-bottom').slideToggle();
+      $('.after4 > .reveal-after-bottom').slideToggle();
+    }
+  );
+  // Before and After Pair 4
+  $('.before4').hover(
+    function() {
+      $('.before4 > .reveal-before-bottom').slideToggle();
+    },
+    function() {
+      $('.before4 > .reveal-before-bottom').slideToggle();
+    }
+  );
+  $('.after4').hover(
+    function() {
+      $('.after4 > .reveal-after-bottom').slideToggle();
+    },
+    function() {
+      $('.after4 > .reveal-after-bottom').slideToggle();
+    }
+  );
+});
