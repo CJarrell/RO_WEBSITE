@@ -572,6 +572,11 @@ section#testimonials {
     outline: 1.5px inset #fff;
     outline-offset: -10px;
 }
+#beforeandafter .ba-seperator{
+   border-bottom: dotted 1.5px #602E8E;
+   margin-bottom: 25px;
+   padding-bottom: 25px;
+}
 
 /*Before and After 1*/
 #beforeandafter .before1 {
@@ -803,8 +808,9 @@ section#testimonials {
     outline-offset: -15px;
 }
 /*before and after see the difference reveal*/
-#beforeandafter .reaveal-button{
-    
+#beforeandafter a #reaveal-button{
+    max-width: 100%;
+    width: inherit !important;
 }
 
 /*Old team member formatting*/

@@ -28,11 +28,7 @@ $('.navbar-collapse ul li a').click(function() {
 //jQuery to reveal before and after images
 // Before and After Pair 1 Dual Reveal
 $("#reveal-button").click(
-  function() {
-    $('.before1 > .reveal-before-top').slideToggle();
-    $('.after1 > .reveal-after-top').slideToggle();
-  },
-  function() {
+  function(){
     $('.before1 > .reveal-before-top').slideToggle();
     $('.after1 > .reveal-after-top').slideToggle();
   }
@@ -48,20 +44,9 @@ $('.before1').hover(
 );
 $('.after1').hover(
   function() {
-    $('.before1 > .reveal-before-top').slideToggle();
-  },
-  function() {
-    $('.after1 > .reveal-after-top').slideToggle();
-  }
-);
-// Before and After Pair 1 Dual Reveal
-$("#reveal-button").click(
-  function() {
-    $('.before1 > .reveal-before-top').slideToggle();
     $('.after1 > .reveal-after-top').slideToggle();
   },
   function() {
-    $('.before1 > .reveal-before-top').slideToggle();
     $('.after1 > .reveal-after-top').slideToggle();
   }
 );
