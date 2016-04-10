@@ -343,8 +343,8 @@ section#testimonials {
     text-align: center;
     color: #fff;
 }
-/*Approach Lists*/
-#approach ul{
+/*Approach Steps*/
+#approach .approach-bg{
     background-color: #d1c8e1;
     list-style: none;
     box-shadow: 0 0 7px #fff;
@@ -355,133 +355,110 @@ section#testimonials {
     margin: 0;
     margin-top: 35px;
 }
-
-
-#approach ul p.step-number-left {
-    font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
-    font-style: regular;
-    font-size: 50px;
-    color: #602E8E;
-    text-align: center;
-    padding-top: 7px;
-    padding-right: 4px;
-    background-color: #fff;
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    border:solid 3px #602E8E;
-    border-radius: 50%;
-    -moz-border-radius-topleft: 50%;
-    -moz-border-radius-topright:50%;
-    -moz-border-radius-bottomleft:50%;
-    -moz-border-radius-bottomright:50%;
-    -webkit-border-top-left-radius:50%;
-    -webkit-border-top-right-radius:50%;
-    -webkit-border-bottom-left-radius:50%;
-    -webkit-border-bottom-right-radius:50%;
-    border-top-left-radius:50%;
-    border-top-right-radius:50%;
-    border-bottom-left-radius:50%;
-    border-bottom-right-radius:50%;
-    top: 1.7em;
-    left: 4.3em;
-
-
+#approach .approach-description-right{
+    padding-left: 5%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}   
+#approach .approach-description-left{
+    padding-left: 20px;
+    padding-right: 5%;
+    padding-bottom: 10px;
 }
-#approach ul p.step-number-right {
-    font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
-    font-style: regular;
-    font-size: 50px;
-    color: #602E8E;
-    text-align: center;
-    padding-top: 7px;
-    padding-right: 4px;
-    background-color: #fff;
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    border:solid 3px #602E8E;
-    border-radius: 50%;
-    -moz-border-radius-topleft: 50%;
-    -moz-border-radius-topright:50%;
-    -moz-border-radius-bottomleft:50%;
-    -moz-border-radius-bottomright:50%;
-    -webkit-border-top-left-radius:50%;
-    -webkit-border-top-right-radius:50%;
-    -webkit-border-bottom-left-radius:50%;
-    -webkit-border-bottom-right-radius:50%;
-    border-top-left-radius:50%;
-    border-top-right-radius:50%;
-    border-bottom-left-radius:50%;
-    border-bottom-right-radius:50%;
-    top: 1.7em;
-    right: 4.3em;
-
-}
-/*CSS rules for approach images on the left*/
-#approach ul li.list-img-left {
-    padding: 0px;
-    margin: 0 auto;
-    float: left;
-    
-}
-#approach ul .list-img-left img{
-    padding: 0px;
-    border-bottom: solid 3px #602E8E;
-}
-@media (min-width: 767px){
-    #approach ul li.list-img-left {
-        padding: 0px;
-        overflow-x: hidden;
-    }
-    #approach ul .list-img-left img{
-        padding: 0px;
-        width: 40%;
-        border-right: solid 3px #602E8E;
-        border-bottom: none;
-        overflow-x: hidden;
-    } 
-}
-#approach ul li p {
+#approach p.approach-body {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: regular;
     color: #fff;
     text-shadow: 1px 1.5px 2px rgba(0, 0, 0, .9);
-    font-size: 1.15em;
+    font-size: .9em;
+}
+@media (min-width: 1007px){
+    #approach p.approach-body{
+       font-size: 1.15em; 
+    }
+}
+@media (min-width: 1213px){
+    #approach p.approach-body{
+       font-size: 1.25em; 
+    }
+}
+/*Step number styling*/
+#approach p.step-number-left {
+    font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
+    font-style: regular;
+    font-size: 50px;
+    color: #602E8E;
+    text-align: center;
     padding-top: 7px;
     padding-right: 4px;
-    
+    background-color: #fff;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border:solid 3px #602E8E;
+    border-radius: 50%;
+    -moz-border-radius-topleft: 50%;
+    -moz-border-radius-topright:50%;
+    -moz-border-radius-bottomleft:50%;
+    -moz-border-radius-bottomright:50%;
+    -webkit-border-top-left-radius:50%;
+    -webkit-border-top-right-radius:50%;
+    -webkit-border-bottom-left-radius:50%;
+    -webkit-border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    top: 35%;
+    right: -15%;
 }
-#approach ul li.list-description-right{
-    margin: 25px;
-    padding-top: 15px;
+#approach p.step-number-right {
+    font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
+    font-style: regular;
+    font-size: 50px;
+    color: #602E8E;
+    text-align: center;
+    padding-top: 7px;
+    padding-right: 4px;
+    background-color: #fff;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border:solid 3px #602E8E;
+    border-radius: 50%;
+    -moz-border-radius-topleft: 50%;
+    -moz-border-radius-topright:50%;
+    -moz-border-radius-bottomleft:50%;
+    -moz-border-radius-bottomright:50%;
+    -webkit-border-top-left-radius:50%;
+    -webkit-border-top-right-radius:50%;
+    -webkit-border-bottom-left-radius:50%;
+    -webkit-border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    top: 35%;
+    left: -15%;
 }
-/*CSS rules for approach images on the right*/
-#approach ul li.list-img-right {
-    padding: 0px;
-    float: left;
-    width: auto;
-}
-#approach ul .list-img-right img{
-    padding: 0px;
+#approach .approach-image-left{
     border-bottom: solid 3px #602E8E;
+    margin-right: 5%;
 }
-@media (min-width: 767px){
-    #approach ul li.list-img-right {
-        padding: 0px;
-        float: right;
-        transform: translateX(65px);
-    }
-    #approach ul .list-img-right img{
-        padding: 0px;
-        width: 80%;
-        border-left: solid 3px #602E8E;
+@media (min-width: 768px){
+    #approach .approach-image-left{
+        border-right: solid 3px #602E8E;
         border-bottom: none;
     }
 }
-#approach ul li.list-description-left{
-    margin-left: 25px;
-    padding-top: 15px;
+#approach .approach-image-right{
+    border-top: solid 3px #602E8E;
+}
+@media (min-width: 768px){
+    #approach .approach-image-right{
+        border-left: solid 3px #602E8E;
+        border-top: none;
+    }
 }
 
 /*About formatting*/
@@ -814,6 +791,10 @@ section#testimonials {
     height: 100%;
     outline: 3px double #fff;
     outline-offset: -15px;
+}
+/*before and after see the difference reveal*/
+#beforeandafter .reaveal-button{
+    
 }
 
 /*Old team member formatting*/
