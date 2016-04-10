@@ -10,8 +10,11 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
+/*Custom container for approach section*/
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
 /*Sitewide formatting*/
 html, body {
     height: 100%;
@@ -341,7 +344,7 @@ section#testimonials {
     color: #fff;
 }
 /*Approach Lists*/
-#approach ul {
+#approach ul{
     background-color: #d1c8e1;
     list-style: none;
     box-shadow: 0 0 7px #fff;
@@ -415,33 +418,29 @@ section#testimonials {
     right: 4.3em;
 
 }
-#approach ul li {
-    padding: 0px;
-    border-radius: 10px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright:5px;
-    -moz-border-radius-bottomleft:5px;
-    -moz-border-radius-bottomright:5px;
-    -webkit-border-top-left-radius:5px;
-    -webkit-border-top-right-radius:5px;
-    -webkit-border-bottom-left-radius:5px;
-    -webkit-border-bottom-right-radius:5px;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
-    border-bottom-left-radius:5px;
-    border-bottom-right-radius:5px;
-}
+/*CSS rules for approach images on the left*/
 #approach ul li.list-img-left {
     padding: 0px;
-    margin-left: -40px;
+    margin: 0 auto;
     float: left;
-    width: auto;
-
+    
 }
 #approach ul .list-img-left img{
     padding: 0px;
-    width: 80%;
-    border-right: solid 3px #602E8E;
+    border-bottom: solid 3px #602E8E;
+}
+@media (min-width: 767px){
+    #approach ul li.list-img-left {
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    #approach ul .list-img-left img{
+        padding: 0px;
+        width: 40%;
+        border-right: solid 3px #602E8E;
+        border-bottom: none;
+        overflow-x: hidden;
+    } 
 }
 #approach ul li p {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -455,21 +454,34 @@ section#testimonials {
 }
 #approach ul li.list-description-right{
     margin: 25px;
-    padding-top: 25px;
+    padding-top: 15px;
 }
+/*CSS rules for approach images on the right*/
 #approach ul li.list-img-right {
     padding: 0px;
-    float: right;
-    transform: translateX(65px);
+    float: left;
+    width: auto;
 }
 #approach ul .list-img-right img{
     padding: 0px;
-    width: 80%;
-    border-left: solid 3px #602E8E;
+    border-bottom: solid 3px #602E8E;
+}
+@media (min-width: 767px){
+    #approach ul li.list-img-right {
+        padding: 0px;
+        float: right;
+        transform: translateX(65px);
+    }
+    #approach ul .list-img-right img{
+        padding: 0px;
+        width: 80%;
+        border-left: solid 3px #602E8E;
+        border-bottom: none;
+    }
 }
 #approach ul li.list-description-left{
-    margin: 0px;
-    padding-top: 25px;
+    margin-left: 25px;
+    padding-top: 15px;
 }
 
 /*About formatting*/
