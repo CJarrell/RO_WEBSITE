@@ -478,27 +478,28 @@ section#testimonials {
 #about .about-portrait{
     margin: 15px;
     margin-top: 5px;
+    margin-bottom: 0px;
 }
 #about .about-text{
-    font-size: 1.3em;
+    font-size: 1.15em;
     margin-left: 15px;
 }
 #about .about-timeline{
-
     border-radius: 2px;
 }
 #about .about-timeline .timeline-style-top{
     border-top:solid 1.5px #602E8E;
-    border-left:solid 2px #602E8E;
+    /*border-left:solid 2px #602E8E;*/
     border-bottom:solid 1.5px #602E8E;
 }
 #about .about-timeline .timeline-style{
-    border-left:solid 2px #602E8E;
+    /*border-left:solid 2px #602E8E;*/
     border-bottom:solid 1.5px #602E8E;
 }
 #about .about-timeline .about-timeline-text{
     padding: 5px;
     padding-top: 20px;
+    text-align: center;
 }
 #about .event-container{
     position: relative;
@@ -556,7 +557,7 @@ section#testimonials {
     color: #fff;
 }
 #beforeandafter h3{
-    color: #602E8E;
+    color: #fff;
 }
 #beforeandafter .ba-box-1{
     padding-left: 0px;
@@ -881,6 +882,9 @@ section#contact {
     background-repeat: no-repeat;
 }
 section#contact .section-heading {
+    color: #fff;
+}
+section#contact .section-subheading {
     color: #fff;
 }
 section#contact .form-group {
