@@ -522,6 +522,32 @@ section#testimonials {
 #about .last-event{
     margin-bottom: 20px;
 }
+#about .clock{
+    position: absolute;
+    color: #602E8E;
+    top: -10px;
+    background-color: #fff;
+}
+#about .clock-right{
+    position: absolute;
+    color: #602E8E;
+    top: -10px;
+    left: 100%;
+    background-color: #fff;
+}
+#about .clock-bottom{
+    position: absolute;
+    color: #602E8E;
+    bottom: -10px;
+    background-color: #fff;
+}
+#about .clock-bottom-right{
+    position: absolute;
+    color: #602E8E;
+    bottom: -10px;
+    left: 100%;
+    background-color: #fff;
+}
 #about .date{
     background-color: #fff;
     position: absolute;
