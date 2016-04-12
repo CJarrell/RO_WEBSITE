@@ -363,6 +363,19 @@ section#testimonials {
     padding-right: 5%;
     padding-bottom: 10px;
 }
+#approach h2.approach-heading{
+    font-size: 1.4em
+}
+@media (min-width: 1007px){
+    #approach h2.approach-heading{
+       font-size: 1.75em; 
+    }
+}
+@media (min-width: 1213px){
+    #approach h2.approach-heading{
+       font-size: 2em; 
+    }
+}
 #approach p.approach-body {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: regular;
@@ -511,34 +524,36 @@ section#testimonials {
     background-color: #fff;
     position: absolute;
     padding: 3px 7px 3px 7px;
-    left: 44%;
+    left: 43%;
+    top: -15px;
+
 }
 #about .date h3{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 450;
     margin: 0 auto;
 }
-#about .d1{
-    top: -15px;
-}
-#about .d2{
-    top: -15px;
-}
-#about .d3{
-    top: -15px;
-    left: 44%;
-}
-#about .d4{
-    top: -15px;
-}
-#about .d5{
-    top: -15px;
-}
-#about .d6{
-    top: -15px;
+@media (min-width: 767px){
+    #about .date h3{
+        font-size: 1.5em;
+    }
 }
 #about .d7{
+    background-color: #fff;
+    position: absolute;
+    padding: 3px 7px 3px 7px;
+    left: 43%;
     bottom: -12px;
+}
+#about .d7 h3{
+    font-size: 1.2em;
+    font-weight: 450;
+    margin: 0 auto;
+}
+@media (min-width: 767px){
+    #about .d7 h3{
+        font-size: 1.5em;
+    }
 }
 /*Napo Logos*/
 #about .napo-logos{
