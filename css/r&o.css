@@ -545,6 +545,10 @@ section#testimonials {
 #about .d7{
     bottom: -12px;
 }
+/*Napo Logos*/
+#about .napo-logos{
+    display: inline-block;
+}
 /*Before & After Formatting*/
 #beforeandafter {
     background-color: #222;
