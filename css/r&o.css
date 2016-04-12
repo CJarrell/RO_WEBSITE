@@ -483,17 +483,16 @@ section#testimonials {
 #about .about-text{
     font-size: 1.15em;
     margin-left: 15px;
+    margin-bottom: 25px;
 }
 #about .about-timeline{
     border-radius: 2px;
 }
 #about .about-timeline .timeline-style-top{
     border-top:solid 1.5px #602E8E;
-    /*border-left:solid 2px #602E8E;*/
     border-bottom:solid 1.5px #602E8E;
 }
 #about .about-timeline .timeline-style{
-    /*border-left:solid 2px #602E8E;*/
     border-bottom:solid 1.5px #602E8E;
 }
 #about .about-timeline .about-timeline-text{
@@ -504,19 +503,15 @@ section#testimonials {
 #about .event-container{
     position: relative;
 }
+#about .last-event{
+    margin-bottom: 50px;
+
+}
 #about .date{
     background-color: #fff;
     position: absolute;
     padding: 3px 7px 3px 7px;
-    left: 200px;
-}
-@media (min-width: 767px){
-    #about .date{
-        background-color: #fff;
-        position: absolute;
-        padding: 3px 7px 3px 7px;
-        left: 149px;
-    }
+    left: 44%;
 }
 #about .date h3{
     font-size: 1.5em;
@@ -531,7 +526,7 @@ section#testimonials {
 }
 #about .d3{
     top: -15px;
-    left: 151px;
+    left: 44%;
 }
 #about .d4{
     top: -15px;
