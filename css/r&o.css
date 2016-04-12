@@ -525,28 +525,32 @@ section#testimonials {
 #about .clock{
     position: absolute;
     color: #602E8E;
-    top: -10px;
+    top: -15px;
     background-color: #fff;
+    font-size: 20px;
 }
 #about .clock-right{
     position: absolute;
     color: #602E8E;
-    top: -10px;
+    top: -15px;
     left: 100%;
     background-color: #fff;
+    font-size: 20px;
 }
 #about .clock-bottom{
     position: absolute;
     color: #602E8E;
-    bottom: -10px;
+    bottom: -13px;
     background-color: #fff;
+    font-size: 20px;
 }
 #about .clock-bottom-right{
     position: absolute;
     color: #602E8E;
-    bottom: -10px;
+    bottom: -13px;
     left: 100%;
     background-color: #fff;
+    font-size: 20px;
 }
 #about .date{
     background-color: #fff;
