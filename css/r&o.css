@@ -592,7 +592,14 @@ section#testimonials {
    margin-bottom: 25px;
    padding-bottom: 25px;
 }
-
+#beforeandafter .ba-seperator a{
+   font-size: 1.4em;
+}
+@media (min-width: 767px){
+    #beforeandafter .ba-seperator a{
+        font-size: 2em;
+    }
+}
 /*Before and After 1*/
 #beforeandafter .before1 {
     background-image: url(../img/before-and-after/B1.jpg);
