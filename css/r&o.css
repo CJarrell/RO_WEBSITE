@@ -253,9 +253,33 @@ header {
 header .intro-text {
     padding-top: 75px;
     padding-bottom: 50px;
+    
 }
-header .intro-text .img-responsive {
-    margin: 0 auto;
+header .intro-text .logo-container{
+    min-height: 489px;
+}
+@media (min-width: 767){
+    header .intro-text .logo-container {
+        min-height: 1913px;
+    }
+}
+header .header-ba-container {
+    background-color: #fff;
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 3px #222;
+    -webkit-box-shadow: 0 0 3px #222;
+    -moz-box-shadow: 0 0 3px #222;
+    -o-box-shadow:0 0 3px #222;
+}
+header .header-ba-container > .header-b, .header-a {
+    box-shadow: 0 0 4px #222;
+    -webkit-box-shadow: 0 0 4px #222;
+    -moz-box-shadow: 0 0 4px #222;
+    -o-box-shadow:0 0 4px #222;
 }
 header .intro-text .intro-lead-in {
     font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;

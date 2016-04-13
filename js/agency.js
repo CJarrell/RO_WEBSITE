@@ -35,6 +35,15 @@ $(function(){
       $(this).removeClass("pulse");
     });
 });
+// Logo fade out on hear click
+$(function(){
+  $("#heart-interaction").click(
+    function(){
+      $('.ro-logo').fadeOut("fast"),
+      $('.header-ba-container').delay("slow").fadeIn("fast");
+      $('.header-b').delay("slow").fadeIn("fast");
+    });
+});
 //jQuery to reveal before and after images
 $(function() {
   // Before and After Pair 1 Dual Reveal
