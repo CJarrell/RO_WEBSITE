@@ -41,6 +41,7 @@ $(function(){
     function(){
       $('.ro-logo').fadeOut("fast"),
       $('.header-ba-container').delay("slow").fadeIn("fast");
+      $('.header-ba-container').css("display", "inline-block");
       $('.header-b').delay("slow").fadeIn("fast");
     });
 });

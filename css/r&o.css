@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Header formatting*/
 header {
-    background-image: url(../img/header-bg-after.jpg);
+    background-image: url(../img/header/header-bg-after.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -265,15 +265,14 @@ header .intro-text .logo-container{
 }
 header .header-ba-container {
     background-color: #fff;
-    display: none;
     margin-top: 50px;
     margin-bottom: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 7px;
     box-shadow: 0 0 3px #222;
     -webkit-box-shadow: 0 0 3px #222;
     -moz-box-shadow: 0 0 3px #222;
     -o-box-shadow:0 0 3px #222;
+    display: none;
 }
 header .header-ba-container > .header-b, .header-a {
     box-shadow: 0 0 4px #222;
