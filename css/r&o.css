@@ -590,6 +590,8 @@ section#testimonials {
 /*Napo Logos*/
 #about .napo-logos{
     display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 /*Before & After Formatting*/
 #beforeandafter {
@@ -1019,4 +1021,10 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
     outline: 0;
+}
+footer li.napo-logos{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
