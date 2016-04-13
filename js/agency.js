@@ -25,6 +25,16 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+// Pulse Navigaion on hover
+$(function(){
+  $("#bs-example-navbar-collapse-1").hover(
+    function() {
+      $(this).addClass("pulse");
+    },
+    function() {
+      $(this).removeClass("pulse");
+    });
+});
 //jQuery to reveal before and after images
 $(function() {
   // Before and After Pair 1 Dual Reveal

@@ -589,6 +589,9 @@ section#testimonials {
     }
 }
 /*Napo Logos*/
+#about .logo-container{
+    padding-top: 50px;
+}
 #about .napo-logos{
     display: inline-block;
     padding-left: 50px;
@@ -1022,6 +1025,9 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 .btn:focus, .btn:active, .btn.active, .btn:active:focus {
     outline: 0;
+}
+footer ul.logo-container{
+    padding-top: 25px;
 }
 footer li.napo-logos{
     display: inline-block;
