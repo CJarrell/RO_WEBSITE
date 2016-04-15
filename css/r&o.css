@@ -256,36 +256,37 @@ header .intro-text {
     
 }
 header .intro-text .logo-container{
-    min-height: 489px;
+    min-height: 100%;
 }
 @media (min-width: 767){
     header .intro-text .logo-container {
-        min-height: 1913px;
+        min-height: 100%;
     }
 }
 header .header-ba-container {
-    background-color: #fff;
+    background-color: transparent;
     margin-top: 50px;
     margin-bottom: 40px;
     padding: 7px;
-    box-shadow: 0 0 3px #222;
-    -webkit-box-shadow: 0 0 3px #222;
-    -moz-box-shadow: 0 0 3px #222;
-    -o-box-shadow:0 0 3px #222;
     display: none;
 }
 header .header-ba-container > .header-b, .header-a {
-    box-shadow: 0 0 4px #222;
-    -webkit-box-shadow: 0 0 4px #222;
-    -moz-box-shadow: 0 0 4px #222;
-    -o-box-shadow:0 0 4px #222;
+    box-shadow: 0 0 4px #fff;
+    -webkit-box-shadow: 0 0 4px #fff;
+    -moz-box-shadow: 0 0 4px #fff;
+    -o-box-shadow:0 0 4px #fff;
+}
+header .header-ba-button{
+    margin-top: 10px
 }
 header .intro-text .intro-lead-in {
     font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
     font-style: regular;
     font-size: 22px;
     line-height: 35px;
+    margin-top: 25px;
     margin-bottom: 25px;
+
 }
 header .intro-text .fa-heart {
     color: #d92329;

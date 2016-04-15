@@ -35,14 +35,23 @@ $(function(){
       $(this).removeClass("pulse");
     });
 });
-// Logo fade out on hear click
+// Logo fade out on heart click
 $(function(){
   $("#heart-interaction").click(
     function(){
-      $('.ro-logo').fadeOut("fast"),
-      $('.header-ba-container').delay("slow").fadeIn("fast");
+      $('.ro-logo').css("display", "none");
+      $('.header-ba-container').fadeIn("fast");
       $('.header-ba-container').css("display", "inline-block");
-      $('.header-b').delay("slow").fadeIn("fast");
+      $('.header-b').delay("slow").fadeIn("slow");
+      $('.header-ba-button').fadeIn("fast");
+    });
+});
+// Toggle header before/after
+$(function(){
+  $('.header-ba-button').click(
+    function(){
+      $('.header-b').slideToggle("fast");
+      $('.header-a').fadeToggle("slow");
     });
 });
 //jQuery to reveal before and after images
