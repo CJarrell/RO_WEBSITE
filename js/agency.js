@@ -41,18 +41,27 @@ $(function(){
     function(){
       $('.ro-logo').css("display", "none");
       $('.header-ba-container').fadeIn("fast");
-      $('.header-ba-container').css("display", "inline-block");
-      $('.header-b').delay("slow").fadeIn("slow");
       $('.header-ba-button').fadeIn("fast");
+      $('.header-b').delay("slow").fadeIn("slow");
     });
 });
 // Toggle header before/after
+
 $(function(){
+  var x == 1;
+  var count == x;
   $('.header-ba-button').click(
     function(){
-      $('.header-b').slideToggle("fast");
-      $('.header-a').fadeToggle("slow");
-    });
+      if(count == 1){
+        $('.header-b').fadeOut("fast"),
+        $('.header-a').fadeIn("slow");
+      } else {
+        $('.header-a').fadeOut("fast"),
+        $('.header-b').fadeIn("slow");
+        count == 0;
+      }
+    }
+  );
 });
 //jQuery to reveal before and after images
 $(function() {
