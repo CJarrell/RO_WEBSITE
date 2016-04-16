@@ -46,19 +46,17 @@ $(function(){
     });
 });
 // Toggle header before/after
-
 $(function(){
-  var x == 1;
-  var count == x;
   $('.header-ba-button').click(
     function(){
-      if(count == 1){
+      if($(this).attr('data-click-state') == 1){
+        $(this).attr('data-click-state', 0),
         $('.header-b').fadeOut("fast"),
         $('.header-a').fadeIn("slow");
       } else {
+        $(this).attr('data-click-state', 1),
         $('.header-a').fadeOut("fast"),
         $('.header-b').fadeIn("slow");
-        count == 0;
       }
     }
   );
