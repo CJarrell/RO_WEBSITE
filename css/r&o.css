@@ -965,7 +965,7 @@ section#contact .section-heading {
 section#contact .section-subheading {
     color: #d1c8e1;
 }
-section#contact .form-group {
+/*section#contact .form-group {
     margin-bottom: 25px;
 }
 section#contact .form-group input, section#contact .form-group textarea {
@@ -1007,10 +1007,44 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
     color: #e74c3c;
+}*/
+section#contact{
+    background-color: #fff;
+    background-position: cover;
+    padding: 0 !important;
+    margin-left: -50px !important;
 }
-
+section#contact .contact-style{
+    background-color: #602E8E;
+    position: relative;
+    padding-bottom: 25px;
+    
+}
+section#contact .g-form{
+    box-shadow: 0 0 4px #fff;
+    -webkit-box-shadow: 0 0 4px #fff;
+    -moz-box-shadow: 0 0 4px #fff;
+    -o-box-shadow:0 0 4px #fff;
+    position: absolute;
+    top: -60px;
+    width: 375px;
+}
+@media (min-width: 767px){
+   section#contact .g-form{
+    box-shadow: 0 0 4px #fff;
+    -webkit-box-shadow: 0 0 4px #fff;
+    -moz-box-shadow: 0 0 4px #fff;
+    -o-box-shadow:0 0 4px #fff;
+    position: absolute;
+    top: -60px;
+    left: 30%;
+    width:800px;
+    height:1460px;
+    } 
+}
 /*Footer formatting*/
 footer {
+    margin-top: 1550px;
     padding: 25px 0;
     text-align: center;
 }
