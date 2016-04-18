@@ -1016,18 +1016,17 @@ section#contact{
 }
 section#contact .contact-style{
     background-color: #602E8E;
-    position: relative;
+    padding-top: 50px;
     padding-bottom: 25px;
-    
+    transform: matrix3d(1,0,0.00,0,0.00,1,0.00,0,0,0,1,0,0,65,0,1);
+    -webkit-transform: matrix3d(1,0,0.00,0,0.00,1,0.00,0,0,0,1,0,0,65,0,1)  
 }
 section#contact .g-form{
+    padding: 0 !important;
     box-shadow: 0 0 4px #fff;
     -webkit-box-shadow: 0 0 4px #fff;
     -moz-box-shadow: 0 0 4px #fff;
     -o-box-shadow:0 0 4px #fff;
-    position: absolute;
-    top: -60px;
-    width: 375px;
 }
 @media (min-width: 767px){
    section#contact .g-form{
@@ -1035,16 +1034,13 @@ section#contact .g-form{
     -webkit-box-shadow: 0 0 4px #fff;
     -moz-box-shadow: 0 0 4px #fff;
     -o-box-shadow:0 0 4px #fff;
-    position: absolute;
-    top: -60px;
-    left: 30%;
-    width:800px;
+    display: block;
     height:1460px;
     } 
 }
 /*Footer formatting*/
 footer {
-    margin-top: 1550px;
+    border-top:double 3px #602E8E;
     padding: 25px 0;
     text-align: center;
 }
