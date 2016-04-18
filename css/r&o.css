@@ -263,7 +263,7 @@ header .intro-text .logo-container{
         min-height: 100%;
     }
 }
-header .header-ba-container {
+/*header .header-ba-container {
     background-color: transparent;
     margin-top: 50px;
     margin-bottom: 40px;
@@ -278,7 +278,7 @@ header .header-ba-container > .header-b, .header-a {
 }
 header .header-ba-button{
     margin-top: 10px
-}
+}*/
 header .intro-text .intro-lead-in {
     font-family: 'Stars-From-Our-Eyes', Arial, sans-serif;
     font-style: regular;

@@ -36,31 +36,31 @@ $(function(){
     });
 });
 // Logo fade out on heart click
-$(function(){
-  $("#heart-interaction").click(
-    function(){
-      $('.ro-logo').css("display", "none");
-      $('.header-ba-container').fadeIn("fast");
-      $('.header-ba-button').fadeIn("fast");
-      $('.header-b').delay("slow").fadeIn("slow");
-    });
-});
+// $(function(){
+//   $("#heart-interaction").click(
+//     function(){
+//       $('.ro-logo').css("display", "none");
+//       $('.header-ba-container').fadeIn("fast");
+//       $('.header-ba-button').fadeIn("fast");
+//       $('.header-b').delay("slow").fadeIn("slow");
+//     });
+// });
 // Toggle header before/after
-$(function(){
-  $('.header-ba-button').click(
-    function(){
-      if($(this).attr('data-click-state') == 1){
-        $(this).attr('data-click-state', 0),
-        $('.header-b').fadeOut("fast"),
-        $('.header-a').fadeIn("slow");
-      } else {
-        $(this).attr('data-click-state', 1),
-        $('.header-a').fadeOut("fast"),
-        $('.header-b').fadeIn("slow");
-      }
-    }
-  );
-});
+// $(function(){
+//   $('.header-ba-button').click(
+//     function(){
+//       if($(this).attr('data-click-state') == 1){
+//         $(this).attr('data-click-state', 0),
+//         $('.header-b').fadeOut("fast"),
+//         $('.header-a').fadeIn("slow");
+//       } else {
+//         $(this).attr('data-click-state', 1),
+//         $('.header-a').fadeOut("fast"),
+//         $('.header-b').fadeIn("slow");
+//       }
+//     }
+//   );
+// });
 //jQuery to reveal before and after images
 $(function() {
   // Before and After Pair 1 Dual Reveal
