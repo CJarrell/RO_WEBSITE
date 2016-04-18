@@ -1027,6 +1027,8 @@ section#contact .g-form{
     -webkit-box-shadow: 0 0 4px #fff;
     -moz-box-shadow: 0 0 4px #fff;
     -o-box-shadow:0 0 4px #fff;
+    display: block;
+    height:1460px;
 }
 @media (min-width: 767px){
    section#contact .g-form{
